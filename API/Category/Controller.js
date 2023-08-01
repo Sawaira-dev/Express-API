@@ -22,7 +22,7 @@ const getAllCategories = async (req, res) => {
 
 }
 
-
+// .
 const getCategoryByID = async (req, res) => {
 
     const { _id } = req.query
@@ -109,7 +109,6 @@ const updateCategory = async (req, res) => {
         })
 
     }
-
 
     catch (error) {
         res.status(400).json({
